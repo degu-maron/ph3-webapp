@@ -474,7 +474,7 @@ header{
     position: relative;
     float: left;
   }
-  .label_Nyobi, .label_dotinstall, .label_task{
+  .label_input, .label_drill, .label_task, label_self{
     clear: both;
   }
   .label_html::before{
@@ -549,7 +549,7 @@ header{
     background-color: blueviolet;
     border-radius: 50%;
   }
-  .label_Nyobi::before{
+  .label_input::before{
     position: absolute;
     content: "";
     width: 13px;
@@ -558,7 +558,7 @@ header{
     background-color: lightblue;
     border-radius: 50%;
   }
-  .label_dotinstall::before{
+  .label_drill::before{
     position: absolute;
     content: "";
     width: 13px;
@@ -576,7 +576,15 @@ header{
     background-color: cornflowerblue;
     border-radius: 50%;
   }
-  
+  .label_self::before{
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 13px;
+    left: 20px;
+    background-color: blueviolet;
+    border-radius: 50%;
+  }
   
   
   /* bottom */

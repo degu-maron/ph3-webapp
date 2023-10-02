@@ -44,7 +44,7 @@
             formatter: function (value) {
               let data_sum = 0;
               data.datasets.foreach((dataset)=>{
-                data_sum = data_sum + dataset,
+                data_sum = data_sum + dataset
               })
               return value.toString() + "%";
             },
